@@ -24,6 +24,7 @@ description: >
 3. **后提规律**：从中能提炼出什么可复用的设计原则？
 
 分析过程先读 `references/frameworks.md` 获取适用的 UX 框架与心理学原则速查，按场景匹配使用，不全量套用。
+**生成 UI 代码前必须读取 `references/design-discipline.md`**，遵守配色、排版、布局、组件的硬纪律，输出后逐项自检 AI 审美陷阱清单。
 
 **输出原则**：
 - 每个维度描述不超过3句话，直击要点，不展开教科书式解释
@@ -343,8 +344,9 @@ description: >
 
 1. 明确设计目标（品类、受众、核心任务）
 2. 检索 `user/patterns/` 和 `references/seeds-public.md` 中的相关规律与样本
-3. 按品类匹配标准动线建议
-4. 输出结构：
+3. **强制读取 `references/design-discipline.md`**，遵守配色/排版/布局/组件的全部硬规则
+4. 按品类匹配标准动线建议
+5. 输出结构（生成 UI 代码后逐项自检设计纪律第六条的反 AI 陷阱清单）：
 
 ```markdown
 ## 设计方案：[标题]
